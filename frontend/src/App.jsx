@@ -40,7 +40,7 @@ function App() {
         </div>
         <div className="flex-1 bg-white rounded-r-lg p-12">
           {steps.step1 && <Step1 onSubmit={handleSelect}/>}
-          {steps.step2 && <Step2/>}
+          {steps.step2 && <Step2 onSubmit={handleSelect}/>}
           {steps.step3 && <Step3/>}
           {steps.step4 && <Step4/>}
         </div>
