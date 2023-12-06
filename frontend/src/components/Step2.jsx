@@ -69,7 +69,7 @@ const Step2 = ({onSubmit}) => {
       </div>
       <div className="flex flex-row justify-between">
         <button 
-        className="text-marineBlue font-bold"
+        className="text-coolGray font-bold"
         onClick={handleGoBack}
         >
           Go Back
